@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1923dc41a724f0947a978d9138a58453, type: 3}
+  m_Name: AudioClipRefsSO
+  m_EditorClassIdentifier: 
+  cannonFire: {fileID: 8300000, guid: 40594e3f55baa8e41a1e82457718d98c, type: 3}
+  ouchMale: {fileID: 8300000, guid: 5ed544e04f9cf3c4a977a8a00a6b9290, type: 3}
+  ouchFemale: {fileID: 8300000, guid: 26338e96fdfe8c249889530c315e741c, type: 3}
+  loadingCannon: {fileID: 8300000, guid: 0aed447178b6982408b84dd4cf1f7dd2, type: 3}

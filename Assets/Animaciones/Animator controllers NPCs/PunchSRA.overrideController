@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PunchSRA
+  m_Controller: {fileID: 9100000, guid: dd045b60d4f70274aa0df0485021d529, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 1132547922023742953, guid: 61cb7a0999b815749b18980b7806589a,
+      type: 3}
+    m_OverrideClip: {fileID: -4592842328519117816, guid: 61cb7a0999b815749b18980b7806589a,
+      type: 3}
