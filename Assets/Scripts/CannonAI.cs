@@ -62,7 +62,7 @@ public class CannonAI : MonoBehaviour
             case AIInputsType.numInputs3:
                 inputs = new Dictionary<string, Tensor>();
                 inputs["obs_0"] = new Tensor(1, 1, 3, 10);
-                inputs["obs_1"] = new Tensor(1, 1, 1, 4);
+                inputs["obs_1"] = new Tensor(1, 1, 1, 2);
                 inputs["obs_2"] = new Tensor(1, 1, 1, 3);
                 inputs["action_masks"] = new Tensor(1, 1, 1, 2);
                 break;
@@ -202,8 +202,8 @@ public class CannonAI : MonoBehaviour
         Vector2 objPos = NormalizedTargetPosition(objetivoStatico.position - transform.position);
         inputs["obs_1"][0] = objPos.x;
         inputs["obs_1"][1] = objPos.y;
-        inputs["obs_1"][2] = 0; //velocidad objetivo estatico es cero
-        inputs["obs_1"][3] = 0;
+        //inputs["obs_1"][2] = 0; //velocidad objetivo estatico es cero
+        //inputs["obs_1"][3] = 0;
 
         float angleHorizontalRotation = rotacionHorizontal.localRotation.eulerAngles.y / 360f;
         inputs["obs_2"][0] = angleHorizontalRotation;
